@@ -1,0 +1,14 @@
+package member;
+
+import java.sql.*; 
+import java.util.ArrayList;
+import java.util.List;
+import connection.util; 
+
+public class MemberDTO 
+{
+	private int seq;
+	private String id;
+	private String pw;
+	private String email;
+}

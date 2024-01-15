@@ -1,0 +1,13 @@
+package com.a.b;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Test extends HttpServlet 
+{
+	public void doGet(HttpServletRequest req, HttpServletResponse resp)
+	{
+		PrintWriter abc = resp.getWriter();
+	}
+}

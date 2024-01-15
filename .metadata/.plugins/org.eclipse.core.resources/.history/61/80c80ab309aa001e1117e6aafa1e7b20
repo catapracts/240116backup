@@ -1,0 +1,9 @@
+package orders;
+
+public class OrdersDTO 
+{
+	private int seq ; 
+	private String oid; 
+	private String ofoodn; 
+	private int oprice;  
+}
